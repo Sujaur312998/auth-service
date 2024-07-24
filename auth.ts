@@ -10,6 +10,9 @@ export const {
   signOut,
   auth
 } = NextAuth({
+  callbacks:{
+
+  },
   adapter:PrismaAdapter(db),
   session:{ strategy: "jwt" },
   ...authConfig,

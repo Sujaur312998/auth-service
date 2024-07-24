@@ -4,7 +4,16 @@
  * type {string[]}
  */
 export const publicRoutes = [
-    '/'
+    '/',
+    '/dashboard',
+    '/warehouse',
+    '/fartilizer',
+    '/customer',
+    '/order',
+    '/contact',
+    '/product',
+    '/service',
+    '/about',
 ]
 
 
